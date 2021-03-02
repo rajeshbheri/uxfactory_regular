@@ -18,6 +18,7 @@
              table,td {
                    border: 1px solid black;
                 }
+                
             </style>
             <meta charset="utf-8">
             <title>
@@ -64,51 +65,35 @@
                     <button type="submit" > Register </button>
                 </form>
             </div>
-            <table style="border-collapse: collapse;">
-              <tr> <th> Pizza point 2.0</th></tr>
-             <tr>
-                 <td>Name</td>
-             </tr>
-             <tr>
-                <td>Pizza topping</td>
-                <td>Supreme<br/>vegetarion<br/>Hawaiian</td>
-            </tr>
-            <tr>
-            <td>Pizza sauce</td>
-            <td> <select name="sauce"class="input" id="sauce">
-                <option value="sauce">Tamato</option>
-                <option value="sauce">Hot saucr</option>
-                <option value="sauce">soy sauce</option>
-                </select><br><br></td>
-            </tr>
-            <tr>
-                <td>optional extras</td>
-                <td><form><input type="checkbox" id="extra sauce" name="extra sauce" value="extra sauce" />
-                <label for="checkbox1">Extra sauce</label></td><br>
-                <td><input type="checkbox" id="extra sauce" name="extra sauce" value="extra sauce" />
-                    <label for="checkbox2">gluten free base</label>
-                </form></td>
-            </tr>
-            <tr>
-                <td>
-                    <h5>Delivery introductions :</h5>
-                    <form action="/action_page.php">
-                    <textarea name="massage" rows="07" cols="10">write some thing...</textarea>
-                    </form>
-                </td>
-            </tr>
-               <td> <footer><button type="submit" > Send my order </button></footer></td>
-            </table>
-           <table cellpadding="5" cellspacing="5">
-                <tr><td>name</td> <td colspan="2"></td></tr>
-                <tr><td>pizza topping</td><td colspan="2"></td>Supreme<br/>vegetarion<br/>Hawaiian</td></td></tr>
-                <tr ><td>pizza sauce</td> <td colspan="2"></td></tr>
-                <tr ><td>optial extras</td><td>seven</td><td>nine</td></tr>
-                <tfoot><tr><td>1</td><td>2</td><td>3</td></tr></tfoot> 
-                <thead><th ><align="center"> Pizza point 2.0 </align></th><thead/>
-                </table>
-                                
+            <table>
+                <tr>
+                  <th>Pizza point 2.0</th>
+                </tr>
+                <tr>
+                  <td>Name</td>
+                  <td><input type="text"/></td>
+                </tr>
+                <tr>
+                  <td>Pizza topping</td>
+                  <td><input type="radio"/><span>Supreme</span><br/><input type="radio"/><span>Vegetarian</span><br/><input type="radio"/><span>Hawaiian</span></td>
+                </tr>
+                <tr>
+                  <td>Pizza Sauce</td>
+                  <td><select><option>Tomoto</option><option>Chily</option></select></td>
+                </tr>
+                <tr>
+                    <td>Optional Extras</td>
+                    <td><input type="checkbox"/><span>Extra cheese</span><input type="checkbox"/><span>Gluten free base</span></td>
+                  </tr>
+                  <tr>
+                      <td><label>Delivery Instructions</label></td><br/>
+                  </tr>
+                  <tr>
+                    <td><textarea></textarea></td><br/>
+                </tr>
                
-            </body>
+              </table>
+              
+           </body>
         </head>
     </html>
