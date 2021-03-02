@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The iframe element</h1>
+
+<div>
+<marquee>Hi This is Manikanta</marquee>
+        <iframe src="sample.html" width="100%" height="500" style="border:5px solid brown;"></iframe>
+
+</div>
+</body>
+</html>

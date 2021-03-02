@@ -1,0 +1,114 @@
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <style>
+             #headingText{
+                 text-align: right;
+             }
+             .labelText{
+                 width:100px;
+                 display: inline-block;
+             }
+             form{
+                 margin-left:10%;
+             }
+             .input{
+                 height:20px;
+             }
+             table,td {
+                   border: 1px solid black;
+                }
+            </style>
+            <meta charset="utf-8">
+            <title>
+                Form elements
+            </title>
+            <body>
+               <h4 id="headingText" title="5">
+                 denotes a required 
+               </h4>
+               <div>
+                <form>
+                    <label for="fname"class="labelText">Firstname</label>
+                    <input type="text" class="input"  id="fname" name="fname" required/><span>*</span><br><br>
+                    <label for="lname" class="labelText">Lastname</label>
+                    <input type="text" class="input" id="lname" name="lname" /><span>*</span><br><br>
+                    <label for="fname" class="labelText">Fathername</label>
+                    <input type="text" class="input" id="tname" name="tname" /><span>*</span><br><br>
+                    <label for="birthday" class="labelText">Date of birth</label>
+                    <input type="date"class="input"  id="birthday" name="birthday"><span>*</span><br><br>
+                    <label for="tname" class="labelText"> Tel </label>
+                    <input type="text" class="input" id="tname" name="tname" placeholder="1234567890" /><span>*</span><br><br>
+                    <label for="sname" class="labelText">High school name</label>
+                    <input type="text" class="input" id="sname" name="sname" /><span>*</span><br><br>
+                    <label for="pname" class="labelText">Parmenent Address</label>
+                    <input type="text" class="input" id="pname" name="pname" /><span>*</span><br><br>
+                    <label for="pin" class="labelText">PIN</label>
+                    <input type="text" class="input" id="Pin" name="pin" maxlength="6" size="6" placeholder="533432"/><span>*</span><br><br> 
+                    <label for="years" class="labelText"> Your level </label>
+                    <select name="years" class="input" id="years">
+                    <option value="1st year">1st year</option>
+                    <option value="2nd year">2nd year</option>
+                    <option value="3rd year">3rd year</option>
+                    <option value="4th year">final year</option>
+                    </select><br><br>
+                    <label for="fname" class="labelText"> Email </label>
+                    <input type="text" class="input" id="fname" name="fname" /><span>*</span><br><br>
+                    <label for="program"class="labelText" > Programming </label>
+                    <select name="program"class="input" id="program">
+                    <option value="program">HTML</option>
+                    <option value="program">CSS</option>
+                    <option value="program">Javascript</option>
+                    <option value="program">React</option>
+                    </select><br><br>
+                    <button type="submit" > Register </button>
+                </form>
+            </div>
+            <table style="border-collapse: collapse;">
+              <tr> <th> Pizza point 2.0</th></tr>
+             <tr>
+                 <td>Name</td>
+             </tr>
+             <tr>
+                <td>Pizza topping</td>
+                <td>Supreme<br/>vegetarion<br/>Hawaiian</td>
+            </tr>
+            <tr>
+            <td>Pizza sauce</td>
+            <td> <select name="sauce"class="input" id="sauce">
+                <option value="sauce">Tamato</option>
+                <option value="sauce">Hot saucr</option>
+                <option value="sauce">soy sauce</option>
+                </select><br><br></td>
+            </tr>
+            <tr>
+                <td>optional extras</td>
+                <td><form><input type="checkbox" id="extra sauce" name="extra sauce" value="extra sauce" />
+                <label for="checkbox1">Extra sauce</label></td><br>
+                <td><input type="checkbox" id="extra sauce" name="extra sauce" value="extra sauce" />
+                    <label for="checkbox2">gluten free base</label>
+                </form></td>
+            </tr>
+            <tr>
+                <td>
+                    <h5>Delivery introductions :</h5>
+                    <form action="/action_page.php">
+                    <textarea name="massage" rows="07" cols="10">write some thing...</textarea>
+                    </form>
+                </td>
+            </tr>
+               <td> <footer><button type="submit" > Send my order </button></footer></td>
+            </table>
+           <table cellpadding="5" cellspacing="5">
+                <tr><td>name</td> <td colspan="2"></td></tr>
+                <tr><td>pizza topping</td><td colspan="2"></td>Supreme<br/>vegetarion<br/>Hawaiian</td></td></tr>
+                <tr ><td>pizza sauce</td> <td colspan="2"></td></tr>
+                <tr ><td>optial extras</td><td>seven</td><td>nine</td></tr>
+                <tfoot><tr><td>1</td><td>2</td><td>3</td></tr></tfoot> 
+                <thead><th ><align="center"> Pizza point 2.0 </align></th><thead/>
+                </table>
+                                
+               
+            </body>
+        </head>
+    </html>
