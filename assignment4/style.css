@@ -1,0 +1,51 @@
+.box{
+    background-color: white;
+    width: 200px;
+    height: 540px;
+    float: left;
+    margin-left: 20px;
+    border: 2px solid black;
+}
+.dottedLine{
+    border-top: 2px dashed black;
+}
+.featuretext{
+    background-color: green;
+    color: honeydew;
+    padding: 4px;
+    margin-left: -70px;
+}
+.btn{
+    background-color:white;
+    padding: 4px;
+    color: red;
+    width: 90%;
+    border-color:rgb(235, 8, 19);
+    margin-left: 10px;
+}
+.imgcenter{
+    text-align: center;
+    margin-top: 20px;
+}
+.textcenter{
+    text-align: center;
+}
+.textcolor{
+    color: rgb(161, 158, 158);
+}
+.some{
+    color: red;
+    font-weight: bold;
+}
+.featuretext3{
+    background-color:goldenrod;
+    color: honeydew;
+    padding: 4px;
+    margin-left: -70px;
+}
+.mainContainer{
+  margin:0 auto;
+}
+.clear{
+    clear: both;
+}

@@ -1,0 +1,30 @@
+.nameforms
+{
+    background-color: dimgray;
+    color:ghostwhite;
+    margin-left: 20px;
+
+}
+.nameforms .labelText{
+    width:100px;
+    display: inline-block;
+}
+#submitbtn
+{
+    background-color:brown;
+    cursor: pointer;
+}
+#vehicle
+{
+    background-color: cyan;
+    color: darkgray;
+    cursor: pointer;
+}
+.webfonts
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div{
+    background-color: darkslategrey;
+    src:url(https://fonts.google.com/specimen/Redressed?preview.text_type=custom);
+}

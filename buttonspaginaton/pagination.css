@@ -1,0 +1,33 @@
+/*global varient*/
+:root{
+--green:rgb(226, 86, 43);
+ }
+.buttoncontainer button{
+    cursor: pointer;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.button1{
+    background-color: blueviolet;
+}
+.button2{
+    background-color: chocolate;
+}
+.button3{
+    background-color: crimson;
+}
+.firstpag{
+    font-weight: bold;
+    padding: 10px;
+}
+.coloumnlayout{
+    column-count: 4;
+    column-gap: 50px;
+    column-rule: rgb(233, 12, 185);
+    column-width: 10px;
+    column-rule-style: dotted;
+}
+.heading{
+    color: var(--green);
+}

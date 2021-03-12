@@ -1,0 +1,12 @@
+.animations
+{
+    width: 100px;
+    height: 100px;
+    background-color: darkturquoise;
+    background-color: deeppink;
+    background-color: gold;
+    background-color: indigo;
+    animation-name: none;
+    animation-duration: 5s;
+    animation-timing-function:ease-in;
+}
