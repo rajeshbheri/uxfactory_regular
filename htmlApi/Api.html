@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Html Api">
+        <meta name="keyword" content="Html,Api">
+        <meta name="author" content="Rajesh">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>        
+        <title>Html Api</title>
+        <script src="https://kit.fontawesome.com/b02766e72f.js" crossorigin="anonymous"></script> 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <script src="../htmlApi/Api.js" rel ="js"></script>
+        <link href = "Api.css" rel ="stylesheet">
+    </head>
+    <body>
+     <div class="container-fluid">
+           <div class="col dd- container text-center">
+               <h3 class="text-light pt-3">Drag and Drop</h3>
+               <div id="dragover" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+               <img  src="../htmlApi/assignment api drag&drop.jfif" id="drag1" draggable="true" ondragstart="drag(event)" width="200px" height="200px">
+           </div><br><br><br>
+           
+           <div class="container">
+           <h3 class="text-center">geolocation</h3>
+           <span id="geo"></span>
+           <button onclick="geoLocation()">submit</button>
+        </div>
+        </div>
+    </body>
+    </html>

@@ -1,0 +1,25 @@
+.icon{
+
+   /* font-size: 200px; */
+}
+/* .imageAlign{ */
+     /* height: 12rem; */
+    /* width: 19rem; */
+/* }  */
+.bigBox {
+    background-image:linear-gradient(to right, #23103B, #5C2B4E);
+/* background-color: red; */
+}
+/* .lastPart{ */
+    /* text-align: center; */
+/* } */
+.rajEsh{
+    color: #5C2B4E;
+}
+.bhEri{
+    border-radius: 0px;
+}
+.fontSize, .builtFont{
+    font-size: 5rem;
+
+}
